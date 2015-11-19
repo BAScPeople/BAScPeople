@@ -1,0 +1,50 @@
+header{
+	text-align: center;
+	/*background-image: url("seagal.JPG");*/
+	background-size: cover;
+	color: white;
+}
+
+h1{ 
+	font-family: Helvetica;
+	font-size: 100px;
+	color: white;
+	padding: 180px 0px 70px 0px;
+
+}
+
+ul{
+	padding-bottom: 30px;
+}
+
+li{
+	font-size: 30px;
+	display: inline;
+	padding: 0px 10px 0px 10px;
+	#hover thing
+}
+
+a{
+	color: white;
+}
+
+.pics{
+	padding: 0px 30px 0px 30px;
+	display: inline;
+	border: 3;
+}
+
+.line{
+	padding:30px 0px 30px 0px;
+	text-align: center;
+}
+
+html{
+	background-color: silver;
+}
+
+.pics:hover{
+	opacity: 0.5;
+}
+
+
