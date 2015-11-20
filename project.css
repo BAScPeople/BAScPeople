@@ -31,18 +31,13 @@ a{
 	color: white;
 }
 
-.pics{
-	/*padding: 0px 30px 0px 30px;*/
-	border: 3;
-}
-
 .line{
 	/*padding:30px 0px 30px 0px;*/
 	text-align: center;
 }
 
 html{
-	background-color: silver;
+	background-color: #BCC6CC;
 }
 
 .pics:hover{
