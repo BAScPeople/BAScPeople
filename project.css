@@ -21,7 +21,10 @@ li{
 	font-size: 30px;
 	display: inline;
 	padding: 0px 10px 0px 10px;
-	#hover thing
+}
+
+li:hover{
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 a{
@@ -29,13 +32,12 @@ a{
 }
 
 .pics{
-	padding: 0px 30px 0px 30px;
-	display: inline;
+	/*padding: 0px 30px 0px 30px;*/
 	border: 3;
 }
 
 .line{
-	padding:30px 0px 30px 0px;
+	/*padding:30px 0px 30px 0px;*/
 	text-align: center;
 }
 
@@ -44,7 +46,46 @@ html{
 }
 
 .pics:hover{
-	opacity: 0.5;
+	opacity: 0.6;
+}
+
+.image{
+	position: relative;
+}
+
+table{
+	padding:;
+	color:white;
+	font-family: Helvetica;
+}
+
+td{
+	padding:20px 0px 20px 0px;
+}
+
+h2{
+	visibility: hidden;
+}
+.pics:hover h2{
+	visibility: visible;
+}
+
+.Architecture{
+	position: absolute;
+	top: 740px;
+	left: 530px;
+}
+
+.Norway{
+	position: absolute;
+	top: 740px;
+	left: 160px;
+}
+
+.something{
+	position: absolute;
+	top: 740px;
+	left: 920px;
 }
 
 
