@@ -7,11 +7,22 @@
 
 		<h1>Our Website</h1>
 
-		<ul>
-			<li><a href="aboutus.html">About us</a></li>
-			<li><a href="other.html">Topics</a></li>
-			<li><a href="blog.html">Blog posts</a></li>
-		</ul>
+			<nav class="menu">
+				<ul class="clearfix">
+					<li><a href="aboutus.html">About us</a></li>
+					<li><a href="#">Topics</a>
+
+						<ul class="sub-menu">
+							<li><a href="architecture.html">Architecture</a></li>
+							<li><a href="norway.html">Norway</a></li>
+							<li><a href="something.html">Something else</a></li>
+						</ul>
+					</li>
+
+					<li><a href="blog.html">Blog posts</a></li>
+				</ul>
+			</nav>
+		</div>
 
 	</header>
 	
@@ -26,11 +37,11 @@
 				</td>
 
 				<td class="pics">
-					<img src="flowers.JPG" width="350" height="350">
+					<a href="architecture.html"><img src="flowers.JPG" width="350" height="350"></a>
 					<h2 class="Architecture">Architecture</h2>
 				</td>
 				<td class="pics">
-					<img src="pat.JPG" width="350" height="350">
+					<a href="something.html"><img src="pat.JPG" width="350" height="350"></a>
 					<h2 class="something">something else<h2>
 				</td>
 			</tr>
@@ -38,7 +49,7 @@
 	</body>
 
 	<footer>
-		copyright
+		© 2015
 	</footer>
 
 
