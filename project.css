@@ -80,7 +80,7 @@ h2{
 .something{
 	position: absolute;
 	top: 740px;
-	left: 920px;
+	left: 160px;
 }
 
 footer {
@@ -130,6 +130,8 @@ footer {
     display:block;
     font-size:16px;
  }
+
+ /*
 
  .dropnorway{
  	left:607px;
