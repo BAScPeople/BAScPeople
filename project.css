@@ -90,6 +90,10 @@ footer {
 	padding: 0px 0px 10px 10px;
 }
 
+.topi{
+	position: relative;
+}
+
 .clearfix:after {
     display:block;
     clear:both;
@@ -113,8 +117,8 @@ footer {
     width:9%;
     padding:5px 0px;
     position:absolute;
-    top:89%;
-    left:558px;
+    top:86%;
+    left:0px;
     z-index:-1;
     opacity:0;
     transition:opacity linear 0.15s;
